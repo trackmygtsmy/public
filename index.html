@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TrackMyGTS - Parcel Tracking Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Strict CSP to avoid deceptive flags -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self';
+                 img-src 'self' data:;
+                 font-src 'self';">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="branding">
+      <img src="images/logo.png" alt="TrackMyGTS" class="logo">
+      <h1>TrackMyGTS</h1>
+    </div>
+    <nav class="top-nav">
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="dashboard-container">
+    <aside class="dashboard-sidebar">
+      <ul class="sidebar-menu">
+        <li><a class="active">Dashboard</a></li>
+        <li><a id="navTrackNew">Track New Item</a></li>
+        <li><a id="navReportIssue">Report Issue</a></li>
+        <li><a id="navDeliverySupport">Delivery Support</a></li>
+        <li><a id="navFeedback">Feedback</a></li>
+      </ul>
+      <div class="sidebar-note">
+        <p>Local parcel tracking only. No financial data collected.</p>
+      </div>
+    </aside>
+
+    <main class="dashboard-content">
+      <section class="search">
+        <h2>Track your shipment</h2>
+        <form id="trackingForm" class="tracking-form" autocomplete="off">
+          <input type="text" id="trackingInput" placeholder="Enter tracking number" required>
+          <button type="submit">Track</button>
+        </form>
+        <p class="search-tip">Tip: Open a deep link like <code>/index.html?code=GTS728926013375</code></p>
+      </section>
+
+      <section id="result" class="result hidden">
+        <div class="print-header">
+          <img src="images/logo.png" alt="TrackMyGTS" class="logo">
+          <h2>Parcel status report</h2>
+        </div>
+
+        <div class="result-header">
+          <div>
+            <h3>Tracking #: <span id="resultCode"></span></h3>
+            <span class="status-badge" id="currentStatus"></span>
+          </div>
+          <div class="result-actions">
+            <button id="printBtn" class="btn">Print details</button>
+            <a id="shareLink" class="btn btn-secondary" href="#">Copy share link</a>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-title">Delivery</div>
+            <div class="card-body">
+              <p><strong>Estimated delivery:</strong> <span id="estDelivery"></span></p>
+              <p><strong>Service:</strong> <span id="serviceType"></span></p>
+              <p><strong>Delivery protection:</strong> <span id="deliveryProtection"></span></p>
+              <p><strong>Reference code:</strong> <span id="referenceCode"></span></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">Parcel</div>
+            <div class="card-body">
+              <p><strong>Weight:</strong> <span id="weight"></span></p>
+              <p><strong>Dimensions:</strong> <span id="dimensions"></span></p>
+              <div id="itemsList"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">Addresses</div>
+            <div class="card-body">
+              <p><strong>Sender:</strong> <span id="senderName"></span></p>
+              <p><strong>From:</strong> <span id="senderAddress"></span></p>
+              <hr>
+              <p><strong>Receiver:</strong> <span id="receiverName"></span></p>
+              <p><strong>To:</strong> <span id="receiverAddress"></span></p>
+            </div>
+          </div>
+        </div>
+
+        <h4>Timeline</h4>
+        <div id="timeline" class="timeline"></div>
+      </section>
+
+      <section id="panelTrackNew" class="panel hidden">
+        <h3>Track new item</h3>
+        <p>Use the search box above to track another shipment.</p>
+      </section>
+      <section id="panelReportIssue" class="panel hidden">
+        <h3>Report issue</h3>
+        <p>Please contact support via the Contact page for delivery issues.</p>
+      </section>
+      <section id="panelDeliverySupport" class="panel hidden">
+        <h3>Delivery support</h3>
+        <p>Local manual dispatch updates only. No banking or payment handling.</p>
+      </section>
+      <section id="panelFeedback" class="panel hidden">
+        <h3>Feedback</h3>
+        <p>We appreciate your feedback to improve local tracking updates.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2025 TrackMyGTS. Local parcel tracking only. No financial data collected.</p>
+  </footer>
+</body>
+</html>

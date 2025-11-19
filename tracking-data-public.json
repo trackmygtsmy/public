@@ -1,0 +1,97 @@
+{
+  "GTS728976543210": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-29",
+    "currentStatus": "Picked up",
+    "weight": "0.85kg",
+    "dimensions": "40×30×20 cm",
+    "deliveryProtection": "Standard Coverage",
+    "referenceCode": "REF-385",
+    "sender": {
+      "name": "Shiraz Apple Store Dispatch",
+      "address": "Shah Alam, Selangor",
+      "phone": "01XXXX3046"
+    },
+    "receiver": {
+      "name": "Nur Zahirah Aniesa",
+      "address": "Johor, Malaysia",
+      "phone": "01XXXX0767"
+    },
+    "items": [
+      { "qty": 1, "name": "iDevice iPhone 15 Pro Max", "weight": "0.41 kg" }
+    ],
+    "history": [
+      {
+        "status": "Package Document Pre-checked",
+        "timestamp": "2025-10-26 09:52",
+        "location": "Sender Office, Shah Alam",
+        "details": "Waybill verified."
+      },
+      {
+        "status": "Picked Up",
+        "timestamp": "2025-10-27 13:21",
+        "location": "MyGTS Service Center, Shah Alam",
+        "details": "Parcel collected and scanned for transit."
+      }
+    ]
+  },
+  "GTS728926013375": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-29",
+    "currentStatus": "In Transit",
+    "weight": "0.75 kg",
+    "dimensions": "40×30×20 cm",
+    "deliveryProtection": "Standard Coverage",
+    "referenceCode": "REF-385",
+    "sender": { "name": "Shiraz Apple Store Dispatch", "address": "Johor Bahru, Johor" },
+    "receiver": { "name": "Nurul Izzatie Izzatul", "address": "Kajang, Selangor" },
+    "items": [
+      { "qty": 1, "name": "iDevice iPad Air 13", "weight": "0.41 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-25 13:36", "location": "Sender Office, Johor", "details": "Waybill verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-26 17:38", "location": "MyGTS Service Center, Johor", "details": "Parcel collected and sealed." },
+      { "status": "Arrived at Origin Sorting Hub", "timestamp": "2025-10-27 10:40", "location": "Johor Sorting Hub", "details": "Sorted and loaded for interstate transport." },
+      { "status": "In Transit to Destination", "timestamp": "2025-10-28 08:15", "location": "Regional Distribution Center, Selangor", "details": "Package en route to final facility." }
+    ]
+  },
+  "GTS728944019972": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-28",
+    "currentStatus": "Delivered",
+    "weight": "0.75 kg",
+    "dimensions": "40×30×20 cm",
+    "deliveryProtection": "Standard Coverage",
+    "referenceCode": "REF-385",
+    "sender": { "name": "Shiraz Apple Store Dispatch", "address": "Shah Alam, Selangor" },
+    "receiver": { "name": "Anis Syuhada", "address": "Johor Bahru, Johor" },
+    "items": [
+      { "qty": 1, "name": "iDevice iPhone 14 Pro Max", "weight": "0.41 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-25 13:36", "location": "Shah Alam, Selangor", "details": "Waybill verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-26 17:38", "location": "MyGTS Service Center, Selangor", "details": "Parcel collected." },
+      { "status": "Arrived at Origin Sorting Hub", "timestamp": "2025-10-27 10:40", "location": "Shah Alam Sorting Hub", "details": "Sorted and dispatched." },
+      { "status": "Out for Delivery", "timestamp": "2025-10-28 09:30", "location": "Local Delivery Facility, Johor Bahru", "details": "Courier assigned." },
+      { "status": "Delivered", "timestamp": "2025-10-28 14:22", "location": "Receiver Address, Johor Bahru", "details": "Package successfully delivered." }
+    ]
+  },
+  "GTS728955667788": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-30",
+    "currentStatus": "Picked up",
+    "weight": "1.5 kg",
+    "dimensions": "45×35×25 cm",
+    "deliveryProtection": "Extended Coverage",
+    "referenceCode": "REF-850",
+    "sender": { "name": "Shiraz Apple Store Dispatch", "address": "Cyberjaya, Selangor" },
+    "receiver": { "name": "Ahmad Firdaus", "address": "Subang Jaya, Selangor" },
+    "items": [
+      { "qty": 1, "name": "iDevice MacBook Air M2", "weight": "1.24 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-27 11:20", "location": "Cyberjaya, Selangor", "details": "Waybill verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-27 15:45", "location": "MyGTS Service Center, Cyberjaya", "details": "Parcel collected for transit." }
+    ]
+  }
+}

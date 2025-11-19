@@ -1,0 +1,119 @@
+{
+  "GTS728976543210": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-29",
+    "currentStatus": "Picked up",
+    "weight": "0.85kg",
+    "dimensions": "40×30×20 cm",
+    "deliveryProtection": "Standard Coverage",
+    "referenceCode": "REF-385",
+    "sender": {
+      "name": "Shiraz Apple Store Dispatch",
+      "address": "Seksyen 16, 40200 Shah Alam, Selangor, Malaysia",
+      "phone": "01119873046",
+      "email": "dispatch@shirazstore.my"
+    },
+    "receiver": {
+      "name": "Nur Zahirah Aniesa",
+      "address": "3705, Jalan Jati 6, Bandar Putra, Johor, Malaysia",
+      "phone": "0138570767",
+      "email": "nur.zahirah@example.com"
+    },
+    "items": [
+      { "qty": 1, "name": "iDevice iPhone 15 Pro Max", "weight": "0.41 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-26 09:52", "location": "Sender Office, Shah Alam", "details": "Waybill and consignment note verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-27 13:21", "location": "MyGTS Service Center, Shah Alam", "details": "Parcel collected and scanned for transit." }
+    ]
+  },
+  "GTS728926013375": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-29",
+    "currentStatus": "In Transit",
+    "weight": "0.75 kg",
+    "dimensions": "40×30×20 cm",
+    "deliveryProtection": "Standard Coverage",
+    "referenceCode": "REF-385",
+    "sender": {
+      "name": "Shiraz Apple Store Dispatch",
+      "address": "Jalan Baru, 81200 Johor Bahru, Johor Darul Ta'zim",
+      "phone": "01119873046",
+      "email": ""
+    },
+    "receiver": {
+      "name": "NURUL IZZATIE IZZATUL",
+      "address": "B-12-06, VISTA BANGI, JALAN REKO, 43000 KAJANG, SELANGOR",
+      "phone": "0178340428",
+      "email": ""
+    },
+    "items": [
+      { "qty": 1, "name": "iDevice iPad Air 13", "weight": "0.41 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-25 13:36", "location": "Sender Office, Johor Darul Ta'zim", "details": "Waybill verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-26 17:38", "location": "MyGTS Service Center, Johor", "details": "Parcel collected and sealed." },
+      { "status": "Arrived at Origin Sorting Hub", "timestamp": "2025-10-27 10:40", "location": "Jalan Ekoperniagaan 1/28 (Bahru, Johor)", "details": "Sorted and loaded for interstate transport." },
+      { "status": "In Transit to Destination", "timestamp": "2025-10-28 08:15", "location": "Regional Distribution Center, Selangor", "details": "Package en route to final destination facility." }
+    ]
+  },
+  "GTS728944019972": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-28",
+    "currentStatus": "Delivered",
+    "weight": "0.75 kg",
+    "dimensions": "40×30×20 cm",
+    "deliveryProtection": "Standard Coverage",
+    "referenceCode": "REF-385",
+    "sender": {
+      "name": "Shiraz Apple Store Dispatch",
+      "address": "Seksyen 16, 40200 Shah Alam, Selangor, Malaysia",
+      "phone": "01119873046",
+      "email": ""
+    },
+    "receiver": {
+      "name": "Anis Syuhada",
+      "address": "No. 11, Jalan Padi Mahsuri 1/1, Bandar Baru Uda, Johor Bahru, 81200, Johor",
+      "phone": "0149326448",
+      "email": ""
+    },
+    "items": [
+      { "qty": 1, "name": "iDevice iPhone 14 Pro Max", "weight": "0.41 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-25 13:36", "location": "Shah Alam, Selangor", "details": "Waybill verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-26 17:38", "location": "MyGTS Service Center, Selangor", "details": "Parcel collected." },
+      { "status": "Arrived at Origin Sorting Hub", "timestamp": "2025-10-27 10:40", "location": "Jalan Ekoperniagaan (Shah Alam, Selangor)", "details": "Sorted and dispatched." },
+      { "status": "Out for Delivery", "timestamp": "2025-10-28 09:30", "location": "Local Delivery Facility, Johor Bahru", "details": "Courier assigned." },
+      { "status": "Delivered", "timestamp": "2025-10-28 14:22", "location": "Receiver Address, Johor Bahru", "details": "Package successfully delivered." }
+    ]
+  },
+  "GTS728955667788": {
+    "service": "Express Delivery",
+    "estDelivery": "2025-10-30",
+    "currentStatus": "Picked up",
+    "weight": "1.5 kg",
+    "dimensions": "45×35×25 cm",
+    "deliveryProtection": "Extended Coverage",
+    "referenceCode": "REF-850",
+    "sender": {
+      "name": "Shiraz Apple Store Dispatch",
+      "address": "Jalan Teknologi, 63000 Cyberjaya, Selangor",
+      "phone": "01119873046",
+      "email": ""
+    },
+    "receiver": {
+      "name": "Ahmad Firdaus",
+      "address": "No 25, Jalan SS15/8, Subang Jaya, 47500 Selangor",
+      "phone": "0194455667",
+      "email": ""
+    },
+    "items": [
+      { "qty": 1, "name": "iDevice MacBook Air M2", "weight": "1.24 kg" }
+    ],
+    "history": [
+      { "status": "Package Document Pre-checked", "timestamp": "2025-10-27 11:20", "location": "Sender Office, Cyberjaya, Selangor", "details": "Waybill verified." },
+      { "status": "Picked Up", "timestamp": "2025-10-27 15:45", "location": "MyGTS Service Center, Cyberjaya", "details": "Parcel collected for transit." }
+    ]
+  }
+}
