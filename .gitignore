@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+
+# Ignore private tracking data
+tracking-data-private.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules if you ever add them
+node_modules/
+
+# Ignore build and cache directories
+.vercel/
+.netlify/
+dist/
+build/
+.cache/
