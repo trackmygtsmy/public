@@ -1,6 +1,6 @@
 {
-  "routes": [
-    { "src": "/api/update", "dest": "/api/update.js" }
+  "rewrites": [
+    { "source": "/api/update", "destination": "/api/update.js" }
   ],
   "headers": [
     {
